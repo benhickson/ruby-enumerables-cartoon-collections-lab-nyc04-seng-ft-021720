@@ -7,6 +7,7 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
+  array = ['a','b',1]
   p array
   p array.find{|i| i.length > 4}
   nil
