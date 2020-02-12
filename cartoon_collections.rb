@@ -9,7 +9,11 @@ end
 def long_planeteer_calls(array)
   array = ['a','b',1]
   p array
-  p array.find{|i| i.length > 4}
+  if array.find{|i| i.length > 4}
+    p true
+  else
+    p false
+  end
   nil
 end
 
